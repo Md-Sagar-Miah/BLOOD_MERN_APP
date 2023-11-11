@@ -4,8 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Header.css';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { useEffect} from 'react';
-import axios from 'axios';
+
 
 
 function Header(){
