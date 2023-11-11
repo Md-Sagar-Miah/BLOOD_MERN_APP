@@ -17,7 +17,7 @@ const storage = multer.diskStorage({
   
   const upload = multer({ storage: storage })
 
-router.get("/",checkLogin,getAllUsers);
+router.get("/",getAllUsers);
 router.get("/:id",checkLogin,getOneUser);
 router.delete("/:id",checkLogin,deleteUser);
 router.patch("/:id",checkLogin,updateUser);
