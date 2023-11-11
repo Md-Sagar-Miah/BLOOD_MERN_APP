@@ -1,0 +1,51 @@
+.loginPage{
+    background-color: rgba(223, 158, 245, 0.6);
+    padding: 3%;
+    width: 550px;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+    font-weight: bold;
+    
+}
+.loginPage .btn{
+    width: 150px;
+    display: block;
+    margin: auto;
+    color: white;
+    background-color:red;
+    border:2px solid white;
+    font-weight: bold;
+}
+.loginPage .btn:hover{
+    color: #000;
+    background-image: linear-gradient(to bottom right, rgb(195, 248, 134), rgb(236, 168, 245));
+    border:2px solid white;
+}
+.loginPage .form-control:hover{
+    box-shadow: 0 3px 10px rgba(255, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width: 1300px) {
+    .loginPage{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 980px) {
+    .loginPage{
+        width: 55%;
+    }
+    
+}
+@media screen and (max-width: 680px) {
+    .loginPage{
+        width: 80%;
+    }
+    
+    
+}

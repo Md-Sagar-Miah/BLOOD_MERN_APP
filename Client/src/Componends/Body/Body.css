@@ -1,0 +1,69 @@
+#figure{
+    margin:5%;
+    display: inline-flex;
+    border: 1px dotted red;
+    padding: 75px;
+    
+}
+
+#figure-caption{
+ display: inline;
+ margin-left: 10%;
+ margin-top: 0%;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 3rem;
+ font-weight: bold;
+ color: red;
+ padding: 5px;
+}
+#figure2{
+    margin:5%;
+    display: inline-flex;
+    border: 1px dotted red;
+    padding: 20px;
+}
+#figure2-img{
+    margin-right: -5%;
+}
+
+#figure-caption2{
+    display: inline;
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    
+   }
+   @media screen and (max-width: 1300px) {
+    #figure-caption,#figure-caption2{
+        font-size: 2.5rem;
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width: 980px) {
+    #figure-caption,#figure-caption2{
+        font-size: 1.5rem;
+    }
+    #figure-caption{
+        margin-left: 2px;
+    }
+    #figure-caption2{
+        margin-top: 5%;
+
+    }
+    #figure{
+        margin-left: 2px;
+    }
+    
+}
+@media screen and (max-width: 680px) {
+    #figure-caption,#figure-caption2{
+        font-size: 1rem;
+    }
+    #figure-caption{
+        margin-left: 1px;
+    }
+    
+    
+}

@@ -1,0 +1,40 @@
+.contain{
+    height: 160vh;
+}
+.registrationPage{
+    background-color: rgba(223, 158, 245, 0.6);
+    padding: 3%;
+    width:45%;
+    border-radius: 5px;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+    font-weight: bold;
+}
+.registrationPage .form-control:hover{
+    box-shadow: 0 3px 10px rgba(255, 0, 0, 0.5);
+}
+.registrationPage .btn{
+    width: 150px;
+    display: block;
+    margin: auto;
+    color: white;
+    background-color:red;
+    border:2px solid white;
+    font-weight: bolder;
+}
+.registrationPage .btn:hover{
+    color: #000;
+    background-image: linear-gradient(to bottom right, rgb(195, 248, 134), rgb(236, 168, 245));
+    border:2px solid white;
+}
+h3{
+    color: red;
+    text-decoration: underline;
+}
+.profile-btn{
+    display: flex;
+}
+  

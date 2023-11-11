@@ -1,0 +1,60 @@
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+.card{
+    width: 18rem; 
+    background-image: linear-gradient(to bottom right, rgb(195, 248, 134), rgb(236, 168, 245));
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    transition-duration: 0.6s;
+    box-shadow: 5px 5px 8px rgb(0, 0, 0);
+    
+}
+.card:hover{
+    scale: 1.1;
+    
+}
+.card .title{
+    font-size: 2rem;
+    color: red;
+    padding: 5px;
+    transition-duration: 0.6s;
+}
+.card .title:hover{
+    color: yellowgreen;
+}
+
+.searchBar{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid rgb(248, 142, 142);
+    background-image: linear-gradient(to bottom right, rgb(195, 248, 134), rgb(236, 168, 245));
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 5px;
+    padding: 5px;
+    position: sticky;
+    overflow: hidden;
+    top: 9rem;
+    z-index: 1;
+}
+.searchBar label{
+    padding: 5px;
+}
+.card .image{
+    height: 250px;
+    border-radius:10px;
+    border: 2px solid rgb(250, 134, 134);
+
+}
+.card .image:hover{
+    border-color:rgb(255, 80, 80);
+}

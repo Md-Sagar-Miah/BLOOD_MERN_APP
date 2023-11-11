@@ -1,0 +1,23 @@
+#figure{
+    padding: 20px 60px;
+}
+.about-section h1{
+    color: red;
+    font-size: smaller;
+    font-weight: bold;
+    border-bottom: 1px dashed white;
+    margin-right: 10px;
+}
+.about-section p{
+    font-weight: 500;
+    font-size: large;
+    font-style: normal;
+    color: black;
+}
+@media screen and (max-width: 1100px) {
+    #figure{
+       display: block;
+       text-align: center;
+    }
+    
+    }
